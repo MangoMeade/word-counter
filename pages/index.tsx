@@ -45,7 +45,7 @@ export default function Home() {
             className="mr-2"
           /> */}
             <MdFormatColorText size={50} />
-            <a href="#" className="inline-block p-2  hover:text-black mr-2">
+            {/* <a href="#" className="inline-block p-2  hover:text-black mr-2">
               Explore
             </a>
             <a href="#" className="inline-block p-2  hover:text-black">
@@ -53,7 +53,7 @@ export default function Home() {
             </a>
             <a href="#" className="inline-block p-2  hover:text-black">
               Hiring Designers?
-            </a>
+            </a> */}
           </div>
           <div className="hidden md:block"></div>
         </header>
@@ -87,9 +87,15 @@ export default function Home() {
               placeholder="Escribe texto aqui..."
             ></textarea>
           </div>
+          <div className="container mx-auto my-5">
+            <h3 className='font-bold'>Como usar el Contador de Palabras?</h3>
+            <p>
+             Contador de palabras es una aplicacion creada para contar el numero de palabras y el numero de caracteres que tiene un texto. Para usar la aplicacion solamente tienes que escribir en el area de texto y la aplicacion te mostrara cuantas palabras y caracteres tiene lo que has escrito. Usa el boton de Borrar para para comenzar de nuevo. 
+            </p>
+          </div>
         </main>
         <footer className="h-10 bg-pink-600 flex justify-end">
-          <p className='mx-2 my-0 leading-10'>Footer</p>
+          <p className='mx-2 my-0 leading-10'></p>
         </footer>
       </div>
     </>
